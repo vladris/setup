@@ -9,7 +9,7 @@ Chocolatey:
 Install:
 
 ```cmd
-choco install -y curl git vim
+choco install -y curl git vim googlechrome far conemu
 ```
 
 Setup:
