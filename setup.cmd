@@ -1,19 +1,5 @@
 echo off
-
-echo Bootstrap
-echo ---------
-
-choco install -y curl
-
-echo Git setup
-echo ---------
-
-choco install -y git
-
 echo Vim setup
-echo ---------
-
-choco install -y vim
 
 :: get vimrc
 curl -k https://raw.githubusercontent.com/vladris/setup/master/dotfiles/.vimrc > %USERPROFILE%\_vimrc
